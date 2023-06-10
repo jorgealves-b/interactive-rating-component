@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+/*font-family: 'Overpass', sans-serif;*/
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(216, 12%, 8%)
+}
+
+main {
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 1rem;
+    width: 375px;
+    padding: 3rem;
+    font-family: 'overpass';
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+p {
+    font-size: 18px;
+    color: hsl(216, 12%, 54%);
+
+    
+}
+
+.logo-star {
+    background-color: hsl(213, 21%, 25%) ;
+    padding: 0.6rem;
+    border-radius: 50%;
+
+}
+
+.btn-rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 50%;
+    color: hsl(216, 12%, 54%);
+    
+}
+
+.btn-rating button  {
+    border-radius: 50%;
+    border: none;
+    background-color:hsl(213, 21%, 25%)  ;
+    color: hsl(216, 12%, 54%);
+    width: 50px;
+    height: 50px;
+    font-weight: 700;
+    transition: 0.6s;
+}
+
+.btn-rating button:hover {
+    cursor: pointer;
+    color:#fff ;
+    background-color: hsl(25, 97%, 53%);
+    transition: 0.4s;
+}
+
+.submit{
+    color: #fff;
+    background-color: hsl(25, 97%, 53%);
+    padding: 0.5rem;
+    border: none;
+    border-radius: 1.5rem;
+    width: 100%;
+    height: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: 'overpass';
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 2rem 0 ;
+}
+
+.submit:hover {
+    background-color: #fff;
+    color: hsl(25, 97%, 53%) ;
+    transition: 0.4s;
+    
+}
+
+.sec-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.sec-container .select {
+    color: hsla(25, 97%, 53%, 0.548);
+    background-color: hsl(213, 21%, 25%) ;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
